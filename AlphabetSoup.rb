@@ -1,10 +1,12 @@
 def AlphabetSoup(str)
 
-  # code goes here
+  if str ==""
+    return -1
+  else
   array = str.split(//)
   return array.sort.join("")
-      
-  return str 
+  end
+end
          
 end
    
